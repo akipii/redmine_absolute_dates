@@ -11,9 +11,9 @@ Rails.application.config.i18n.load_path += Dir["#{File.dirname(__FILE__)}/config
 
 Redmine::Plugin.register :redmine_absolute_dates do
   name 'Redmine Absolute Dates plugin'
-  author 'suer'
+  author 'suer / y.yoshida'
   description 'Display absolute create or update dates '
-  version '0.0.2'
-  url 'https://github.com/suer/redmine_absolute_dates'
-  author_url 'http://d.hatena.ne.jp/suer'
+  version '0.0.3'
+  url 'https://github.com/yoshidayo/redmine_absolute_dates'
+  author_url 'http://www.ibs.inte.co.jp/'
 end

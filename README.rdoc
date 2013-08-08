@@ -10,10 +10,13 @@ Redmineのチケットの作成日、更新日はデフォルトでは
 = インストール
 1. Redmineのインストールディレクトリ内の vender/plugins/ にて
 
-   $ git clone git://github.com/suer/redmine_absolute_dates.git
+   $ git clone git://github.com/yoshidayo/redmine_absolute_dates.git
 
 2. Redmine の再起動
 
 = ライセンス
 MITライセンスとします
 
+= 機能微修正 version 0.0.3
+https://github.com/suer/redmine_absolute_dates に修正を加え、
+表示される日付を「yyyy/MM/dd」から「yyyy/MM/dd hh:min」に変更しました。
